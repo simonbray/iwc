@@ -1,0 +1,47 @@
+install_tool_dependencies: True
+install_repository_dependencies: True
+install_resolver_dependencies: True
+
+tools:
+- name: openbabel_compound_convert
+  owner: bgruening
+  revisions:
+  - e2c36f62e22f
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: ctb_rdkit_descriptors
+  owner: bgruening
+  revisions:
+  - a1c53f0533b0
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: gmx_setup
+  owner: chemteam
+  revisions:
+  - 1d4dd4f908d4
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: text_processing
+  owner: bgruening
+  revisions:
+  - ddf54b12c295
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: ambertools_antechamber
+  owner: chemteam
+  revisions:
+  - 4fff93efc0f9
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: ambertools_acpype
+  owner: chemteam
+  revisions:
+  - a0c154146234
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: gmx_merge_topology_files
+  owner: chemteam
+  revisions:
+  - 9389cd867cf2
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
