@@ -15,7 +15,6 @@
     ],
     "format-version": "0.1",
     "license": "MIT",
-    "release": "0.1.2",
     "name": "Parallel Accession Download",
     "steps": {
         "0": {
@@ -210,13 +209,13 @@
             },
             "tool_id": "toolshed.g2.bx.psu.edu/repos/iuc/sra_tools/fasterq_dump/2.11.0+galaxy0",
             "tool_shed_repository": {
-                "changeset_revision": "69ebb7f46e45",
+                "changeset_revision": "83c7d564b128",
                 "name": "sra_tools",
                 "owner": "iuc",
                 "tool_shed": "toolshed.g2.bx.psu.edu"
             },
-            "tool_state": "{\"__job_resource\": {\"__job_resource__select\": \"no\", \"__current_case__\": 0}, \"adv\": {\"minlen\": null, \"split\": \"--split-3\", \"skip_technical\": \"true\"}, \"input\": {\"input_select\": \"accession_number\", \"__current_case__\": 0, \"accession\": {\"__class__\": \"ConnectedValue\"}}, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
-            "tool_version": "2.11.0+galaxy0",
+            "tool_state": "{\"__job_resource\": {\"__current_case__\": 0, \"__job_resource__select\": \"no\"}, \"adv\": {\"minlen\": null, \"split\": \"--split-3\", \"skip_technical\": \"true\"}, \"input\": {\"input_select\": \"accession_number\", \"__current_case__\": 0, \"accession\": {\"__class__\": \"ConnectedValue\"}}, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "2.11.0+galaxy1",
             "type": "tool",
             "uuid": "4d328e7b-df7d-4d3e-a60f-1ea12925f317",
             "workflow_outputs": []
@@ -234,7 +233,7 @@
             },
             "inputs": [],
             "label": "flatten paired output",
-            "name": "Apply Rule to Collection",
+            "name": "Apply rules",
             "outputs": [
                 {
                     "name": "output",
@@ -286,7 +285,7 @@
             },
             "inputs": [],
             "label": "flatten single end output",
-            "name": "Apply Rule to Collection",
+            "name": "Apply rules",
             "outputs": [
                 {
                     "name": "output",
@@ -327,6 +326,6 @@
         }
     },
     "tags": [],
-    "uuid": "15c3229d-8786-457f-a020-7aa64c0cf6e8",
-    "version": 10
+    "uuid": "417018e9-4d22-4441-8a99-591b8df443ef",
+    "version": 1
 }

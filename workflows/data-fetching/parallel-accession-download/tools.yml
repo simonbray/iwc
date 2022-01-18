@@ -1,0 +1,17 @@
+install_tool_dependencies: True
+install_repository_dependencies: True
+install_resolver_dependencies: True
+
+tools:
+- name: split_file_to_collection
+  owner: bgruening
+  revisions:
+  - 6cbe2f30c2d7
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: sra_tools
+  owner: iuc
+  revisions:
+  - 69ebb7f46e45
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
