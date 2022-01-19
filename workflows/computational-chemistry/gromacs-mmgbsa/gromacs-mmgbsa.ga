@@ -11,7 +11,7 @@
     "format-version": "0.1",
     "license": "MIT",
     "name": "MMGBSA calculations with GROMACS",
-    "release": "0.1.4",
+    "release": "0.1.5",
     "steps": {
         "0": {
             "annotation": "Size of the MMGBSA ensemble",
@@ -1119,9 +1119,9 @@
                     }
                 },
                 "tags": "",
-                "uuid": "4595ab9a-b9c7-4762-9b47-482914677740"
+                "uuid": "4fc3aeb7-5b9c-4315-a101-28f55262e53f"
             },
-            "tool_id": "c609d222579e166c",
+            "tool_id": "c4c92be2009548b2",
             "type": "subworkflow",
             "uuid": "fe2677ce-d0d4-4937-9d34-f9a35db814d8",
             "workflow_outputs": [
@@ -1645,7 +1645,7 @@
                     "output_name": "report"
                 }
             },
-            "tool_id": "toolshed.g2.bx.psu.edu/repos/chemteam/gmx_sim/gmx_sim/2021.3+galaxy2",
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/chemteam/gmx_sim/gmx_sim/2021.3+galaxy3",
             "tool_shed_repository": {
                 "changeset_revision": "d1f803b5943c",
                 "name": "gmx_sim",
@@ -1743,7 +1743,7 @@
                     "output_name": "report"
                 }
             },
-            "tool_id": "toolshed.g2.bx.psu.edu/repos/chemteam/gmx_sim/gmx_sim/2021.3+galaxy2",
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/chemteam/gmx_sim/gmx_sim/2021.3+galaxy3",
             "tool_shed_repository": {
                 "changeset_revision": "d1f803b5943c",
                 "name": "gmx_sim",
@@ -1827,7 +1827,7 @@
                     "output_name": "report"
                 }
             },
-            "tool_id": "toolshed.g2.bx.psu.edu/repos/chemteam/gmx_sim/gmx_sim/2021.3+galaxy2",
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/chemteam/gmx_sim/gmx_sim/2021.3+galaxy3",
             "tool_shed_repository": {
                 "changeset_revision": "d1f803b5943c",
                 "name": "gmx_sim",
@@ -2080,7 +2080,7 @@
                     "output_name": "output"
                 }
             },
-            "tool_id": "toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/4.2",
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/5.1.0",
             "tool_shed_repository": {
                 "changeset_revision": "90981f86000f",
                 "name": "collapse_collections",
