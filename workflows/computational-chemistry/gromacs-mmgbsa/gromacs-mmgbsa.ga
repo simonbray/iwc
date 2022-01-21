@@ -11,7 +11,7 @@
     "format-version": "0.1",
     "license": "MIT",
     "name": "MMGBSA calculations with GROMACS",
-    "release": "0.1.3",
+    "release": "0.1.4",
     "steps": {
         "0": {
             "annotation": "Size of the MMGBSA ensemble",
@@ -1119,9 +1119,9 @@
                     }
                 },
                 "tags": "",
-                "uuid": "ef17ee61-b2ad-44f7-9a4d-1b0e1fd71658"
+                "uuid": "ba7fcc42-83e9-4b4d-9079-1da6c1760cca"
             },
-            "tool_id": "bceda0f59bcbc96c",
+            "tool_id": "8ef19c74a95be1f6",
             "type": "subworkflow",
             "uuid": "fe2677ce-d0d4-4937-9d34-f9a35db814d8",
             "workflow_outputs": [
