@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.4] 2022-01-24
+
+### Automatic update
+- `toolshed.g2.bx.psu.edu/repos/devteam/bowtie2/bowtie2/2.3.4.2` was updated to `toolshed.g2.bx.psu.edu/repos/devteam/bowtie2/bowtie2/2.4.2+galaxy0`
+- `toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_MarkDuplicates/2.18.2.2` was updated to `toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_MarkDuplicates/2.18.2.3`
+- `toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.8+galaxy1` was updated to `toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.11+galaxy0`
+- `toolshed.g2.bx.psu.edu/repos/iuc/lofreq_call/lofreq_call/2.1.5+galaxy0` was updated to `toolshed.g2.bx.psu.edu/repos/iuc/lofreq_call/lofreq_call/2.1.5+galaxy1`
+
 ## [0.1.3] 2021-12-13
 
 ### Added
