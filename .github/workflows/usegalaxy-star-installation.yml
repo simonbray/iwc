@@ -1,0 +1,17 @@
+name: usegalaxy.* installation
+
+on:
+  schedule:
+    # Run at midnight every Tuesday
+    - cron: '0 0 * * 2'
+  push:
+    branches: [ main ]
+
+jobs:
+  workflow-install:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Run a multi-line script
+        run: |
+          python scripts/usegalaxy_star_upload.py
