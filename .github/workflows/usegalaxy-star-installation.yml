@@ -12,6 +12,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+      - name: Cache downloads
+        uses: actions/cache@v2
+        with:
+          path: |
+            ~/.cache/pip
+          key: py-cache
       - name: Run a multi-line script
         run: |
+          pip install bioblend
           python scripts/usegalaxy_star_upload.py
